@@ -1,0 +1,15 @@
+{
+  "name": "media-match",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lite": "lite-server",
+    "tsc:w": "tsc -w",
+    "start": "concurrently \"npm run lite\" \"npm run tsc:w\""
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "lite-server": "^2.3.0"
+  }
+}
